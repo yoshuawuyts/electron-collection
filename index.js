@@ -1,0 +1,6 @@
+exports.debug = require('./debug')
+exports.firstRun = require('./first-run')
+exports.isDev = require('./is-dev')
+exports.move = require('./move')
+exports.rootPath = require('./root-path')
+exports.squirrelStartup = require('./squirrel-startup')
