@@ -1,4 +1,5 @@
 exports.debug = require('./debug')
+exports.defaultMenu = require('./default-menu')
 exports.firstRun = require('./first-run')
 exports.isDev = require('./is-dev')
 exports.move = require('./move')

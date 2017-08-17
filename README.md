@@ -10,6 +10,17 @@ Set of helper modules to build Electron applications.
 Adds useful debug features to your Electron app. See:
 [electron-debug](https://www.npmjs.com/package/electron-debug).
 
+### `menu = defaultMenu(app, shell)`
+Create a default menu. See:
+[electron-default-menu](https://github.com/carter-thaxton/electron-default-menu).
+```js
+var defaultMenu = require('electron-collection/default-menu')
+var { Menu, app, shell } = require('electron')
+
+var menu = defaultMenu(app, shell)
+Menu.setApplicationMenu(Menu.buildFromTemplate(menu))
+```
+
 ### `firstRun([opts])`
 Check if it's the first time the process is run. See:
 [first-run](https://github.com/sindresorhus/first-run).

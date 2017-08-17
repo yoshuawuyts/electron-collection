@@ -11,6 +11,7 @@
   "dependencies": {
     "app-root-path": "^2.0.1",
     "electron-debug": "^1.4.0",
+    "electron-default-menu": "^1.0.1",
     "electron-is-dev": "^0.3.0",
     "electron-lets-move": "0.0.5",
     "electron-squirrel-startup": "^1.0.0",
