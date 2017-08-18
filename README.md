@@ -41,6 +41,10 @@ Automatically move Electron apps to the Applications directory. See:
 Determine the root path to your project. Read-only value. See:
 [app-root-path](https://github.com/inxilpro/node-app-root-path).
 
+### `resolvePath(resource)`
+Determine the path of a resource relative to the application root.
+[app-root-path](https://github.com/inxilpro/node-app-root-path).
+
 ### `shouldStart = squirrelStartup()`
 Default [Squirrel.Windows](https://github.com/Squirrel/Squirrel.Windows) event
 handler for your Electron apps. Returns a boolean. See:
