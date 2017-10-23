@@ -29,7 +29,7 @@ Check if it's the first time the process is run. See:
 Fix the $PATH on macOS when run from a GUI app. See:
 [fix-path](https://github.com/sindresorhus/fix-path).
 
-### `isDev()`
+### `isDev`
 Check if Electron is running in Development. See:
 [electron-is-dev](https://github.com/sindresorhus/electron-is-dev).
 
